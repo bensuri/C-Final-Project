@@ -1,0 +1,15 @@
+delete meeting
+Returns the place in the array that needs to be deleted
+
+check date
+Checks if the date is correct
+
+create meeting
+Creates a meeting and checks the correctness of the input
+
+chec meeting excise
+Checks if the meeting is not busy
+
+insert meeting
+Returns the place where the meeting should take place
+
