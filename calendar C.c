@@ -2,7 +2,7 @@
 #include <string.h>
 #include <time.h>
 #include <math.h>
-#define N 1024
+
  struct Meeting
 {
 int date[3];  
