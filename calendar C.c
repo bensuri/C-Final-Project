@@ -14,7 +14,7 @@ float endhour;
 char subject [64];
 
 };
-int checkdate(int d,int m,int y)//Date check
+int checkdate(int d,int m)//get day&month and check validity
 {
     if ((m==1)&&(d<=31)||(m==3)&&(d<=31)||(m==5)&&(d<=31)||(m==7)&&(d<=31)||(m==8)&&(d<=31)||(m==10)&&(d<=31)||(m==12)&&(d<=31))
     return 1;
@@ -29,7 +29,7 @@ int checkdate(int d,int m,int y)//Date check
     return 0;
    
 }
-struct Meeting createmeeting(struct Meeting NM)
+struct Meeting createmeeting(struct Meeting NM)// create new meeting
 {
     
     do
